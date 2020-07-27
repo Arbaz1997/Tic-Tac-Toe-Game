@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane gridLinesVisible="true" prefHeight="450.0" prefWidth="600.0" style="-fx-border-color: #0729EC;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.blogspot.arbazcode.Controller">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+      <RowConstraints maxHeight="95.0" minHeight="0.0" prefHeight="32.400000000000006" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="277.0" minHeight="10.0" prefHeight="131.20000000000002" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="196.0" minHeight="10.0" prefHeight="143.2" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="181.2" minHeight="10.0" prefHeight="141.59999999999997" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <Button fx:id="buttonThree" mnemonicParsing="false" prefHeight="140.0" prefWidth="200.0" style="-fx-background-color: #88C5C7; -fx-border-color: #0729EC;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+            <font>
+                <Font size="62.0" />
+            </font>
+        </Button>
+        <Button fx:id="buttonTwo" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" prefHeight="140.0" prefWidth="200.0" style="-fx-background-color: #88C5C7; -fx-border-color: #0729EC;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <font>
+                <Font size="62.0" />
+            </font>
+        </Button>
+        <Button fx:id="buttonOne" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" prefHeight="140.0" prefWidth="200.0" style="-fx-border-color: #0729EC; -fx-background-color: #88C5C7;" GridPane.rowIndex="2">
+            <font>
+                <Font size="62.0" />
+            </font>
+        </Button>
+        <Button fx:id="buttonSix" layoutX="210.0" layoutY="11.0" mnemonicParsing="false" prefHeight="142.0" prefWidth="200.0" style="-fx-background-color: #88C5C7; -fx-border-color: #0729EC;" GridPane.columnIndex="2" GridPane.rowIndex="3">
+            <font>
+                <Font size="62.0" />
+            </font>
+        </Button>
+        <Button fx:id="buttonFive" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" prefHeight="149.0" prefWidth="200.0" style="-fx-background-color: #88C5C7; -fx-border-color: #0729EC;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+            <font>
+                <Font size="62.0" />
+            </font>
+        </Button>
+        <Button fx:id="buttonFour" layoutX="210.0" layoutY="144.0" mnemonicParsing="false" prefHeight="141.0" prefWidth="200.0" style="-fx-background-color: #88C5C7; -fx-border-color: #0729EC;" GridPane.rowIndex="3">
+            <font>
+                <Font size="62.0" />
+            </font>
+        </Button>
+        <Button fx:id="buttonSeven" layoutX="10.0" layoutY="144.0" mnemonicParsing="false" prefHeight="140.0" prefWidth="200.0" style="-fx-background-color: #88C5C7; -fx-border-color: #0729EC;" GridPane.rowIndex="4">
+            <font>
+                <Font size="62.0" />
+            </font>
+        </Button>
+        <Button fx:id="buttonEight" layoutX="10.0" layoutY="278.0" mnemonicParsing="false" prefHeight="140.0" prefWidth="200.0" style="-fx-background-color: #88C5C7; -fx-border-color: #0729EC;" GridPane.columnIndex="1" GridPane.rowIndex="4">
+            <font>
+                <Font size="62.0" />
+            </font>
+        </Button>
+        <Button fx:id="buttonNine" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" prefHeight="140.0" prefWidth="200.0" style="-fx-background-color: #88C5C7; -fx-border-color: #0729EC;" textFill="#0e0e0e" GridPane.columnIndex="2" GridPane.rowIndex="4">
+            <font>
+                <Font size="62.0" />
+            </font>
+        </Button>
+      <Pane prefHeight="20.0" prefWidth="200.0" style="-fx-border-color: #0729EC;" GridPane.columnSpan="3" GridPane.rowSpan="2" />
+    </children>
+   <effect>
+      <Lighting>
+         <bumpInput>
+            <Shadow />
+         </bumpInput>
+         <light>
+            <Light.Distant />
+         </light>
+      </Lighting>
+   </effect>
+</GridPane>
